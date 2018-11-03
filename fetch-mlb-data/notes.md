@@ -1,0 +1,4 @@
+- Not all years have the cumulative file representing all innings, might be better to just request each inning file.
+- The day portion of the path `/components/game/mlb/year_xxxx/month_xx/[day_xx]` should not have a slash at the end.
+- 2005 is the last year that has the inning by inning data.
+- Directories with the game data (gid_xxx_xx_xx_yyy_zzz_n) must end with a slash.

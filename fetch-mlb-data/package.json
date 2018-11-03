@@ -1,0 +1,24 @@
+{
+  "name": "fetch-mlb-data",
+  "private": "true",
+  "description": "Fetch game and player data from MLB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjoekent/baseball-time.git"
+  },
+  "author": "Joe Kent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsjoekent/baseball-time/issues"
+  },
+  "homepage": "https://github.com/itsjoekent/baseball-time#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^2.2.0",
+    "uuid": "^3.3.2"
+  }
+}
