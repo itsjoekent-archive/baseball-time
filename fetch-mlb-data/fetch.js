@@ -6,7 +6,7 @@ const fetch = require('node-fetch');
 const uuid = require('uuid');
 
 const baseUri = 'https://gd2.mlb.com/components/game/mlb';
-const baseStoragePath = path.join(__dirname, '../data/www', `crawled_at_${Date.now()}`);
+const baseStoragePath = path.join(__dirname, '../../baseball-time-raw-data/xml');
 
 fs.mkdirSync(baseStoragePath);
 

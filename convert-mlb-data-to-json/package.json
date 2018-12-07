@@ -1,0 +1,16 @@
+{
+  "name": "convert-mlb-data-to-json",
+  "version": "1.0.0",
+  "description": "Convert MLB XML Gameday data to JSON",
+  "main": "index.js",
+  "dependencies": {
+    "fast-xml-parser": "^3.12.5",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node -max-old-space-size=8192 index.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
